@@ -1,0 +1,275 @@
+{
+"editor.bracketPairColorization.enabled": true,
+"editor.guides.bracketPairs": "active"
+}
+{    "key" :"shift+alt+right",
+    "comand": "bracket-pair-colorizer.expandBracketSelection",
+    "when": "editorTextFocus"
+},
+{
+    "key": "shift+alt+left",
+    "comand": "bracket-pair-colorizer.undoBracketSelection",
+    "when": "editorTextFocus"
+}
+    "bracketPairColorizer.consecutivePairColors":[
+    ["<", "</"],
+    ["<", "/>"],
+    [
+        "Yellow",
+        "Purple",
+        "Lightblue"
+    ],
+    "Red"
+    ]
+    "highlight-matching-tag.styles": {
+        "opening": {
+           "name": {
+               "underline": "green"
+           } 
+        }
+    }
+
+    "highlight-matching-tag.styles": {
+        "opening": {
+            "left": {
+                "custom": {
+                    "borderWidth": "0 0 0 1px",
+                    "borderStyle": "dotted",
+                    "borderColor": "white",
+                    "borderRadius": "5px",
+                    "overviewRulerColor": "white"
+                }
+            },
+            "right": {
+                "custom": {
+                    "borderWidth": "0 1px 0 0",
+                    "borderStyle": "dotted",
+                    "borderColor": "white",
+                    "borderRadius": "5px",
+                    "overviewRulerColor": "white"
+                }
+            }
+        }
+    }
+
+    "highlight-matching-tag.styles": {
+        "opening": {
+            "left": {
+                "underline": "yellow"
+            },
+            "right": {
+                "surround": "#155FFA"
+            },
+            "name": {
+                "highlight": "rgba(180, 20, 80, 0.3)"
+            }
+        },
+        "closing": {
+            "full": {
+                "custom": {
+                    "dark": {
+                        "borderWidth": "0 0 1px 0",
+                        "borderColor": "white",
+                        "borderStyle": "solid",
+                        "borderRadius": "4px",
+                        "right": "10px"
+                    },
+                    "light": {
+                        "borderWidth": "0 0 1px 0",
+                        "borderColor": "brown",
+                        "borderStyle": "solid",
+                        "borderRadius": "4px",
+                        "right": "10px"
+                    }
+                }
+            }
+        }
+
+
+"highlight-matching-tag.highlightSelfClosing": true,
+        "highlight-matching-tag.customEmptyElements": [
+            "custom",
+            "no-content"
+        ]
+
+
+    ext install esbenp.prettier-vscode
+
+
+{
+            "editor.defaultFormatter": "esbenp.prettier-vscode",
+            "[javascript]": {
+                "editor.defaultFormatter": "esbenp.prettier-vscode"
+            }
+        }
+
+        {
+            "editor.defaultFormatter": "esbenp.prettier-vscode",
+            "[javascript]": {
+                "editor.defaultFormatter": "<another formatter>"
+            }
+        }
+
+{
+            "editor.defaultFormatter": "<another formatter>",
+            "[javascript]": {
+                "editor.defaultFormatter": "esbenp.prettier-vscode"
+            }
+        }
+
+{
+            "[javascript]": {
+                "editor.formatOnSave": false
+            }
+        }
+
+npm install prettier -D --save-exact
+
+
+
+1. CMD + Shift + P -> Format Document
+OR
+1. Select the text you want to Prettify
+2. CMD + Shift + P -> Format Selection
+
+
+// Set the default
+        "editor.formatOnSave": false,
+        // Enable per-language
+        "[javascript]": {
+            "editor.formatOnSave": true
+        }
+{
+javascript
+javascriptreact
+typescript
+typescriptreact
+json
+graphql
+handlebars
+}
+{}
+prettier.arrowParens
+prettier.bracketSpacing
+prettier.endOfLine
+prettier.htmlWhitespaceSensitivity
+prettier.insertPragma
+prettier.jsxBracketSameLine
+prettier.jsxSingleQuote
+prettier.printWidth
+prettier.proseWrap
+prettier.quoteProps
+prettier.requirePragma
+prettier.semi
+prettier.singleQuote
+prettier.tabWidth
+prettier.trailingComma
+prettier.useTabs
+prettier.vueIndentScriptAndStyle
+prettier.embeddedLanguageFormatting
+
+
+{
+            "prettier.documentSelectors": [
+                "**/*.abc"
+            ]
+        }
+
+{
+            "overrides": [
+                {
+                    "files": "*.abc",
+                    "options": {
+                        "parser": "babel"
+                    }
+                }
+            ]
+        }
+
+        {
+            code --install-extension GitHub.vscode-pull-request-github@prerelease --install-extension GitHub.remotehub
+        }
+"editor.codeActionsOnSave": {
+    "source.fixAll.markdownlint": true
+}
+{
+    "MD013": false
+}
+{
+    "default": true,
+    "MD003": {
+        "style": "atx_closed"
+    },
+    "MD007": {
+        "indent": 4
+    },
+    "no-hard-tabs": false
+}
+{
+    "extends": "../.markdownlint.json",
+    "no-hard-tabs": true
+}
+{
+    "editor.someSetting": true,
+    "markdownlint.config": {
+        "default": true,
+        "MD003": {
+            "style": "atx_closed"
+        },
+        "MD007": {
+            "indent": 4
+        },
+        "no-hard-tabs": false
+    }
+}
+{
+    "editor.someSetting": true,
+    "markdownlint.focusMode": true
+}
+{
+    "editor.someSetting": true,
+    "markdownlint.focusMode": 2
+}
+{
+    "editor.someSetting": true,
+    "markdownlint.run": "onSave"
+}
+# Ignore Markdown files in the test directory
+test /*.md
+!test/except/this/one.md
+{
+    "editor.someSetting": true,
+    "markdownlint.ignore": [
+        "ignore.md",
+        "directory/ignore.md",
+        "**/ignore.md",
+        "**/*.md"
+]
+}
+{
+"editor.someSetting": true,
+"markdownlint.ignore": ".gitignore"
+}
+{
+"editor.someSetting": true,
+"markdownlint.customRules": [
+"./.vscode/my-custom-rule.js",
+"./.vscode/my-custom-rule-array.js",
+"./.vscode/npm-package-for-custom-rule",
+"/absolute/path/to/custom/rule.js",
+"{publisher.extension-name}/custom-rule.js",
+"{publisher.extension-name}/npm/rule/package"
+]
+}
+[
+// Source: https://github.com/microsoft/vscode/blob/main/extensions/markdown-basics/package.json
+"**/*.{md,mkd,mdwn,mdown,markdown,markdn,mdtxt,mdtext,workbook}",
+// Source: https://github.com/microsoft/vscode/blob/main/src/vs/workbench/contrib/search/browser/search.contribution.ts
+"!**/node_modules",
+"!**/bower_components",
+// Additional exclusions
+"!**/.git"
+]
+<!-- markdownlint-disable MD037 -->
+deliberate space * in * emphasis
+<!-- markdownlint-enable MD037 -->

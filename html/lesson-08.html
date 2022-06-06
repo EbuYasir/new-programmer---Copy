@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Unejsi Muca">
+    <meta name="description" content="This page contain all things I am learnin how to create as I learn HTML">
+    <title>My First Web Page</title>
+    <link rel="icon" href="/image/HTML5_Logo_256.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/main.css" type="text/css">
+</head>
+
+<body>
+    <header>
+        <h1>My Goals for the Year</h1>
+<hr>
+        <nav aria-label="primary-navigation">
+            <h2 id="primary-navigation">Primary Navigattion</h2>
+            <ul>
+                <li>
+                    <a href="#HTML">Learn HTML</a>
+                </li>
+                <li>
+                    <a href="#Vacation">Planing a Vacation</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+<hr>
+    <article id="HTML">
+        <main>
+            <h2>I'm ready to learn HTML</h2>
+            <p>This is my firs web page</p>
+            <section>
+                <img src="/image/html5.jpg" alt="HTML5 Logo" title="I'm learnin HTML5" width="300px">
+                <figure>
+                    <figcaption>
+                        An example of HTML5 code
+                    </figcaption>
+                    <p>
+                        <code>&lt;h1&gt;Hello World!&lt;/h1&gt;</code>
+                    </p>
+                </figure>
+            </section>
+            <section>
+<hr>
+                <h3> My Daily Schedule</h3>
+                <p>Let me tell you how
+                <ol>
+                    <li>...I learn more about dev.</li>
+                    <li>...I plan out my schrdule.</li>
+                    <li>...I use resource from <abbr title=" >
+                    <a href=" https://developer.mozilla.org/">MDN</a></abbr>.</li>
+                    </p>
+                </ol>
+                <aside>
+                    <details>
+                        <summary>Ges the <mark>numbers of hours</mark> I code per day</summary>
+                        <p>I start at <time datetime="08:00"> 8 </time> and i write code for <time datetime="PT3H">3
+                            </time>hours every morning</p>
+                    </details>
+                </aside>
+                <br>
+                <table>
+
+                    <caption>My Daily Schedule</caption>
+                    <thead>
+                        <tr>
+                            <th>&nbsp;</th>
+                            <th scope="col">Time</th>
+                            <th scope="col">Activity</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Morning</th>
+                            <td>
+                                <time datetime="08:00">8am</time>
+                                <time datetime="11:00">12pm</time>
+                            </td>
+                            <td>Write Code</td>
+                        </tr>
+                        <br>
+                        <tr>
+                            <th scope="row">Break</th>
+                            <td>
+                                <time datetime="11:00">11am</time>
+                                <time datetime="12:00">11am</time>
+                            </td>
+                            <td>Eat Lunch</td>
+                        </tr>
+                        <br>
+                        <tr>
+                            <th scope="row">Afternoon</th>
+                            <td>
+                                <time datetime="12:00">12pm</time>
+                                <time datetime="17:00">17pm</time>
+                            </td>
+                            <td>Study for other courses</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Evening</th>
+                            <td rowspan="2">All over time</td>
+                            <td>Free Time</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Night</th>
+                            <td>Sleep</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <td colspan="3">And that's what I do every day, 5 days a week. Just eat, sleep, code ..and
+                            recharge!</td>
+                    </tfoot>
+                </table>
+            </section>
+    </article>
+<hr>
+    <article id="Vacation">
+        <h2>I'm Also Planing a Vacation</h2>
+        <p>I've have been working hard and <em>really need a get away.</em></p>
+        <p>I live in <abbr title="Kansas">KS</abbr> so I wnant visit a beach.</p>
+<hr>
+        <section>
+            <h3>Places I'd Reely Like to Visit</h3>
+            <ul>
+                <li>
+                    <p>I've heard good thing about the Caribean.</p>
+                    <figure>
+                        <img src="/image/island-9cc41fb.jpg" alt="Caribean beach"
+                            title="I want to visit Carabbean Beach" width="400px" height="200" loading="lazy">
+                        <figcaption>
+                            Carabbean Beach Getaway
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <p>I've heard good things about going here:</p>
+                    <address>
+                        Margaritaville Island Reserve Riviera Cancunbr <br>
+                        Bahia Petempich Puerto Morelos, Mexico <br>
+                        Colonia Morelos, Mexico 77580
+                    </address>
+                    <figure>
+                        <img src="/image/Relishing-Vacation.jpg" alt="Cancun Vacation" title="It's 5 o'Clock Somowhere"
+                            width="500px" loading="lazy">
+                        <figcaption>
+                            A Carabbean Vacation Image
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+
+            <!--TODO: Add more places -->
+        </section>
+        <section>
+<hr>
+            <h3>Place I Want to Avoid</h3>
+            <dl>
+                <dt>North Pole</dt>
+                <dd>I hear this is <strong>cold</strong>!</dd>
+
+                <dt>South Pole</dt>
+                <dd>This is also cold.</dd>
+
+                <dt>Mountain Tops</dt>
+                <dd>These are also cold.</dd>
+            </dl>
+    </article>
+<hr>
+    <article id="contact">
+        <h2>Contact Me</h2>
+        <p>I'd really like to hear from you!</p>
+
+        <form action="http://httpbin.org/get" method="get">
+            <fieldset>
+                <legend>Personal Info</legend>
+        <p>
+            <label for="First Name">First Name*:</label>
+            <input type=" text" name="First Name" id="First Name" placeholder="Unejsi" autocomplete="on" required autofocus>
+        </p>
+        <p>
+            <label for="Last Name">Last Name*:</label>
+            <input type=" text" name="Last Name" id="Last Name" placeholder="Muca" autocomplete="on" required="" autofocus>
+        </p>
+        <p>
+            <label for="email">Email*:</label>
+            <input type="mail" name="email" id="email" placeholder="example@gmail.com" autocomplete="on" required autofocus >
+        </p>
+        <p>
+            <label for="password">Password*:</label>
+            <input type="password" name="password" id="password" placeholder="Password" autocomplete="" required autofocus>
+        </p>
+        <!-- --> <p>
+            <label for="phone">Phone*:</label>
+            <input type="tel" name="phone" id="phone" placeholder="123-456-7890" autocomplete="on" pattern="[0-9}{3}-[0-9}{3}-[0-9}{4}" required
+            autofocus>
+        </p>
+        <p>
+            <label for="decade">Favorite decade*:</label>
+            <input type="number" name="decade" id="decade" min="1952" max="2022" step="10" value="2022" autocomplete="on"
+                 required autofocus>
+        </p>
+        <p>
+            <label for="cofféé">Favorite Coffeé*:</label>
+            <select name="cofféé" id="coffeé" multiple size="5">
+                <optgroup label="Coffées">
+                <option value="regular coffeé">Regular Coffeé</option>
+                <option value="iced coffeé">Iced Coffeé</option>
+                </optgroup>
+                <optgroup label="Espresso Drinks">
+                <option value="latte">Latte</option>
+                <option value="cappucino">Cappucino</option>
+                <option value="nesscafé">Nescafé</option>
+                <option value="cortado">Cortado</option>
+                <option value="americano">Americano a</option>
+                <option value="arabic" selected>Arabic</option>
+                </optgroup>
+                <option value="other">Other</option>
+            </select>
+        </p>
+        <!-- <p>
+            <label for="cofféé">Favorite Coffeé:</label>
+            <input type="text" name="cofeé" id="coffeé" list="coffeé-list">
+            <datalist id="coffeé-list">
+                <option value="coffeé"></option>
+                <option value="latte"></option>
+                <option value="espresso"></option>
+                <option value="cortado"></option>
+                <option value="americano"></option>
+                <option value="nesscafé"></option>
+                <option value="iced coffeé"></option>
+                <option value="cappucino"></option>
+                <option value="arabic"></option>
+                <option value="other"></option>
+            </datalist>
+        </p> -->
+        </fieldset>
+        <br>
+        <fieldset>
+             <legend>What is your favorite food?</legend>
+             <p>
+                 <input type="radio" name="food" id="tacos" value="tacos">
+                 <label for="tacos">Tacos</label>
+             </p>
+             <p>
+                <input type="radio" name="food" id="pizza" value="pizza">
+                <label for="pizza">Pizza</label>
+            </p>
+            <p>
+                <input type="radio" name="food" id="other" value="other">
+                <label for="other">Other</label>
+            </p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Do you have pets?</legend>
+                <p>
+                    <input type="checkbox" name="pets" id="dog" value="dog">
+                    <label for="dog">Dog</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="pets" id="cat" value="cat">
+                    <label for="cat">Cat</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="pets" id="parrot" value="parrot">
+                    <label for="parrot">Parrot</label>
+                </p>
+                <p>
+                    <input type="checkbox" name="pets" id="otherPet" value="otherPet">
+                    <label for="otherPet">Other</label>
+                </p>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Send Me A Message:</legend>
+            <br>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Type here your message!"></textarea>
+        </fieldset>
+        <br>
+        <button type="submit">Submit</button>
+        <button type="submit" formaction="http://httpbin.org/get" formmethod="post">Post</button>
+        <button type="reset">Reset</button>
+         </form>
+    </article>
+
+    </main>
+    </section>
+<hr>
+    <footer>
+        <p>
+            &lt;&lt;&lt;&copy; This link to info about <a href="about.html">freecodecamp.org</a> &gt;&gt;&gt;
+        </p>
+        <p>
+
+            <a href="#">Back to Top</a>
+        </p>
+    </footer>
+</body>
+
+<!--<a href="lesson-04.html"></a>
+    <a href="lesson-03.html"></a>
+    <a href="lesson-01.html"></a>
+    <a href="index.html"></a>-->
+
+</html>
